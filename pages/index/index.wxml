@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class='container'>
+  <!-- <view class='background' src="tian.jpg" > -->
+  <view style="background:url('https://dpic.tiankong.com/0d/17/QJ6545619152.jpg?x-oss-process=style/670ws')">
+  <text class="font1">北京·海淀\n</text>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='container'>
+    <view class='floatLeft bar'>
+    <view style='margin-left: 15px'></view>
+    <view style='margin-top: 50px'></view>
+      <text class='font2'>-2℃\n</text>
+      </view>
+  <view class='floatLeft bar'>
+        <view style='margin-left: 20px'></view>
+          <text>1~-9℃ \n 多云\n</text>
+          <image bindtap="bindViewTap" src="img/cloud.png" class="pic"></image>
+  </view>
+  <view class='floatLeft bar'>
+    <view style='margin-left: 15px'></view>
+      <text>西北风</text>
+      <text>3-4级\n</text>
+    </view>
+  <view class='floatLeft bar'>
+  <view style='margin-left: 15px'></view>
+      <text>空气质量：优</text>
+  </view>
+  <view class='floatLeft bar'>
+  <view style='margin-left: 15px'></view>
+      <text class='fontSmall'>北京时间20：00发布</text>
+  </view>
+  
+  <view style='margin-top: 25px'></view>
+  <text class='font3'>生活不易，笑着活下去O(∩_∩)O</text>
+  
+    
+</view>
+</view>
+  <button bindtap="add">search city</button> 
+  <!-- </view> -->
+</view>
+

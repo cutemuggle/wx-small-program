@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/weather/weather",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#eee",
+    "selectedColor":"#3cc51f",
+    "borderStyle":"white",
+    "backgroundColor":"#ffffff",
+    "list": [{
+      "pagePath": "pages/weather/weather",
+      "text": "hello weather",
+      "iconPath": "images/yun.jpg",
+      "selectedIconPath": "images/yun.jpg"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "a static version",
+      "iconPath": "images/yun.jpg",
+      "selectedIconPath": "images/yun.jpg"
+    }]
+  }
+}

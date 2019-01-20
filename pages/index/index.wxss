@@ -1,0 +1,87 @@
+/**index.wxss**/
+.background{
+  display:grid;
+  background-image:url('img/tian.jpg');
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.font1 {
+  color:black;
+  font-style:oblique;
+  font-size: 120%;
+  text-align: Center;
+  font-weight: bold;
+}
+.font2 {
+  color:black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+  font-size: 40px;
+}
+.font3 {
+  color:gray;
+  font-style:oblique;
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
+}
+
+
+.container {
+  position: relative;
+  border: 2rpx rgba(0, 0, 0, 0.014) solid;
+  width: 100%;
+  top:20%;
+  height: 600rpx;
+  padding: 0;
+  margin: 100;
+  text-align: center;
+  display: block;
+}
+.floatLeft {
+  display: flex;
+  flex-direction: row;
+}
+
+.floatRight{
+  display: flex;
+  flex-direction: row-reverse
+}
+
+.bar{
+  width: 100%
+}
+.fontSmall{
+  font-size:12px;
+  line-height:50px
+}
+
+
+
+
+
+
